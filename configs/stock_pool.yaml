@@ -1,0 +1,11 @@
+pools:
+  all:
+    description: 全部已上市 A 股
+    ts_codes: []
+  semiconductor:
+    description: 半导体示例池，请按实际研究范围维护
+    ts_codes: []
+  power:
+    description: 电力示例池，请按实际研究范围维护
+    ts_codes: []
+

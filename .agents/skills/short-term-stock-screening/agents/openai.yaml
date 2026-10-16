@@ -1,0 +1,4 @@
+interface:
+  display_name: "Short Term Stock Screening"
+  short_description: "Build short-term observation pools"
+  default_prompt: "Screen A-shares into priority, cautious, and avoid observation pools."

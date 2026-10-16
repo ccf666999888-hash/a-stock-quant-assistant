@@ -1,0 +1,4 @@
+interface:
+  display_name: "A股盘后决策复盘"
+  short_description: "自动生成A股盘后大盘、板块、次日预案与HTML个股观察池报告"
+  default_prompt: "Use $a-share-after-close-review to generate the latest A-share after-close HTML review and next-session plan."

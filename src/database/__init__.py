@@ -1,0 +1,2 @@
+"""DuckDB persistence layer."""
+

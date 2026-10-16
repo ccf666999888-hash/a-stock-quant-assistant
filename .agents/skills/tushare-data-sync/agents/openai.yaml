@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tushare Data Sync"
+  short_description: "Sync A-share Tushare datasets"
+  default_prompt: "Sync Tushare data into the local DuckDB and report missing datasets."

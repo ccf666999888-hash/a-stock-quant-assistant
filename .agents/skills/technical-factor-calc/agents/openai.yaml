@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Factor Calc"
+  short_description: "Calculate technical and stage factors"
+  default_prompt: "Calculate and validate technical, volume-price, stage, and risk factors."

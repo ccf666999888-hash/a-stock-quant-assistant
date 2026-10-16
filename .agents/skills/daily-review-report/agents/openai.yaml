@@ -1,0 +1,4 @@
+interface:
+  display_name: "Daily Review Report"
+  short_description: "Generate the daily quantitative review"
+  default_prompt: "Generate a daily market review and next-session observation plan."

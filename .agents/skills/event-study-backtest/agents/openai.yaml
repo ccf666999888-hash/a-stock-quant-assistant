@@ -1,0 +1,4 @@
+interface:
+  display_name: "Event Study Backtest"
+  short_description: "Compare event-study success and control groups"
+  default_prompt: "Run T-1 factor event studies and compare success and control groups."

@@ -1,0 +1,53 @@
+account:
+  account_id: daily-paper-001
+  initial_cash: 10000.0
+  strategy_version: daily-pullback-v1
+
+execution:
+  slippage_rate: 0.001
+  commission_rate: 0.00025
+  minimum_commission: 5.0
+  sell_stamp_rate: 0.0005
+  buy_gap_min_pct: -2.0
+  buy_gap_max_pct: 3.0
+
+portfolio:
+  max_positions: 2
+  target_position_pct: 0.45
+  minimum_cash_pct: 0.10
+  maximum_stock_price: 60.0
+  max_new_orders_per_day: 1
+
+entry:
+  minimum_score: 75.0
+  minimum_market_breadth_pct: 45.0
+  allowed_market_regimes:
+    - 强势
+    - 震荡
+  allowed_sector_states:
+    - 强势延续
+    - 反弹确认
+  pct_chg_min: 0.0
+  pct_chg_max: 12.0
+  volume_ratio_min: 0.8
+  volume_ratio_max: 1.8
+  close_position_min: 0.70
+  rsi6_min: 45.0
+  rsi6_max: 70.0
+  kdj_j_max: 90.0
+  bias5_min: 0.0
+  bias5_max: 5.0
+  return_5d_max: 12.0
+
+exit:
+  hard_stop_pct: -5.0
+  profit_protect_trigger_pct: 8.0
+  time_stop_days: 7
+  time_stop_min_return_pct: 3.0
+  maximum_holding_days: 10
+
+risk:
+  drawdown_reduce_pct: 5.0
+  drawdown_pause_pct: 8.0
+  consecutive_loss_pause_count: 2
+

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a-stock-quant-assistant"
+version = "0.1.0"
+description = "A-share short-term quantitative review and watchlist assistant"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "akshare>=1.18.94",
+  "duckdb>=1.0",
+  "loguru>=0.7",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "pyarrow>=15",
+  "pydantic>=2.6",
+  "pyyaml>=6.0",
+  "rich>=13.7",
+  "tabulate>=0.9",
+  "tushare>=1.4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.setuptools.packages.find]
+where = ["src"]

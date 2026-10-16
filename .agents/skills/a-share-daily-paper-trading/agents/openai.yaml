@@ -1,0 +1,4 @@
+interface:
+  display_name: "A股日线模拟盘"
+  short_description: "运行一万元A股日线模拟账户并生成每日盘后HTML交易报告"
+  default_prompt: "Use $a-share-daily-paper-trading to update the persistent A-share paper account and generate the latest after-close HTML report."

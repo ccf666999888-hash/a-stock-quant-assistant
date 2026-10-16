@@ -1,0 +1,9 @@
+max_priority_rows: 30
+max_cautious_rows: 30
+max_avoid_rows: 30
+disclaimer: 仅供复盘研究和交易计划参考，不构成投资建议。
+market_indices:
+  - 000001.SH
+  - 399001.SZ
+  - 399006.SZ
+

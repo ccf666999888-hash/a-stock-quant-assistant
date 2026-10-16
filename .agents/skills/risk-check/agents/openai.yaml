@@ -1,0 +1,4 @@
+interface:
+  display_name: "Risk Check"
+  short_description: "Identify short-term trading risks"
+  default_prompt: "Check observation candidates for false breakouts, distribution, and breakdown risk."
